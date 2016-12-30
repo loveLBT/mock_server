@@ -1,0 +1,20 @@
+{
+  "name": "mock_server",
+  "version": "1.0.0",
+  "description": "json-server with mockjs",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "json-server": "^0.9.4",
+    "mockjs": "^1.0.1-beta3"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "scripts": {
+    "mock": "json-server ./mock/init.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
